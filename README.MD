@@ -36,7 +36,6 @@ spamicity = get_file_spamicity(filename, n=8, plot=False)
 ```
 This function calculates the spamicity of a given file by comparing the words in the file to the trained word count dictionary. It returns the calculated spamicity value.
 
-If plot=True you will get this plot :
 ![alt text](https://github.com/An0n1mity/SpamClassifierEval/blob/master/get_file_spamicity_plot.png)
 
 4. Test misclassification for a given `n` using the `test_misclassification` function:
@@ -45,5 +44,4 @@ test_misclassification(testing_files_spams, testing_files_hams, n=(8, 16, 32), t
 ```
 This function tests the misclassification rate of the spam classification model on the provided testing files. It compares the calculated spamicity of each file to a threshold value and counts the false positives and true negatives. It accepts an optional `n` parameter to specify the number of words used for classification. 
 
-If plot=True you will get this plot :
 ![alt text](https://github.com/An0n1mity/SpamClassifierEval/blob/master/test_misclassification_plot.png)
