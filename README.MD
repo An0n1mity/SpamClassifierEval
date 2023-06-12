@@ -1,6 +1,7 @@
 # Email Spam Classification
 
 This repository contains code for training a spam classification model using the Naive Bayes algorithm. It also includes functions for evaluating the model's performance and visualizing the spamicity of a given file.
+An explanation of the algorithm is given on my [github page](https://an0n1mity.github.io/posts/spam_classifier/).
 
 ## Prerequisites
 - Python 3.x
